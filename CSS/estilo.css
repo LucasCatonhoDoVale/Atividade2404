@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+     background-color: #B4BEC9;
+     margin: 0;
+}
+header{
+     /*background-color: hotpink;*/
+     width: 1000px;
+     height: 70px;
+     margin:auto;
+}
+nav{
+    /*background-color: rgb(24, 235, 112);*/
+    width: 290px;
+    height: 45px;
+    float: right;
+    padding: 25px 0px 0 60px;
+}
+#logo{
+    /*background-color: rgb(22, 52, 221);*/
+    width: 350px;
+    height: 70px;
+}
+#LogoNome{
+    color: #159A9C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 0 0 0px ;
+}
+/*Criando um Banner*/
+#banner{
+    /*background-color: yellow;*/
+    background-image: url(../IMG/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+/*Section01 -  Sobre*/
+#containerSobre{
+    /*background-color: black;*/
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+#textoSobre{
+    width: 600px;
+    height: 500px;
+   /* background-color: #159A9C;*/
+    float: right;
+}
+#textoSobre h2{
+    color:  #E4F2E7;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+#textoSobre p{
+    margin-top: 100px;
+    color: #2D3E40;
+    padding: 0 0 3500px 25px;
+}
+#imgSobre{
+
+    width: 350px;
+    height: 500px;
+    /*background-color: aliceblue;*/
+}
+#imgSobre img{
+    width: 350px;
+    height: 500px;
+}

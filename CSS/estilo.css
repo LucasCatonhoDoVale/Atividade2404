@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-     background-color: #B4BEC9;
+     background-color: #fff;
      margin: 0;
 }
 header{
@@ -16,6 +16,10 @@ nav{
     height: 45px;
     float: right;
     padding: 25px 0px 0 60px;
+}
+nav a{
+    text-decoration: none;
+    color:#159A9C ;
 }
 #logo{
     /*background-color: rgb(22, 52, 221);*/
@@ -49,14 +53,12 @@ nav{
     float: right;
 }
 #textoSobre h2{
-    color:  #E4F2E7;
-    margin-left: 200px;
+   color: #159A9C;
     margin-top: 90px;
 }
 #textoSobre p{
-    margin-top: 100px;
+
     color: #2D3E40;
-    padding: 0 0 3500px 25px;
 }
 #imgSobre{
 
@@ -67,4 +69,105 @@ nav{
 #imgSobre img{
     width: 350px;
     height: 500px;
+}
+
+/*Section 02- Serviços*/
+#containerServicos{
+    background-color: #2D3E40;
+    width: 100%;
+    height: 500px;
+}
+#servicos{
+    /*background-color: pink;*/
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.produtos{
+    background-color: #159A9C;
+    float: right;
+    width: 300px;
+    height: 375px;
+    margin: 75px 25px 0 0;
+    border-radius:5px ;
+}
+.produtos p{
+    width: 200px;
+    font-size: 15px;
+    margin: 25px 0 0 70px;
+    color: #fff;
+}
+.imgProduto{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    margin: 25px 0 0 75px ;
+    border-radius: 5px;
+}
+.imgProduto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+/*Section 03- contato*/
+#contato{
+    /*background-color: pink;*/
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+#imgMapa{
+   /* background-color: #2D3E40;*/
+    width: 350px;
+    height: 450px;
+    float: left;
+    margin:25px 0 0 35px;
+}
+#imgMapa img{
+    width: 350px;
+    height: 450px;
+}
+#fundo{
+    /*background-color: aqua;*/
+    width: 500px;
+    height: 450px ;
+    margin:25px 50px ;
+    float: right;
+   
+}
+#nomeSite{
+     /*background-color: #159A9C;*/
+     width: 300px;
+     height: 50px;
+     margin: 25px 0px 0 100px;
+}
+#nomeSite h1{
+    color:#159A9C;
+    margin: 15px 0 0 70px;
+}
+#resumo{
+    /*background-color: #2D3E40;*/
+    width: 480px;
+    height: 250px;
+    margin: 25px 45px 0 0;
+    margin-left: 10px;
+}
+#resumo p{
+    color: #2D3E40;
+    text-align: justify;
+    margin:50px 0 0 0 ;
+    float: right;
+}
+#direito{
+    /*background-color: #2D3E40;*/
+    width: 480px;
+    height: 50px;
+    margin: 25px 45px 0 0;
+    margin-left: 10px;
+}
+#direito p{
+ color: #2D3E40;
+ float: left;
+ margin: 0px 45px 0 0; 
+ margin-left: 150px;
 }
